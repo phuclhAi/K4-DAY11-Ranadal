@@ -9,8 +9,8 @@ tổng hợp và trỏ tới bằng chứng. Chi tiết phân vai, bàn giao t�
 | Họ và tên | Vai trò trong bài | Slice | Repo cá nhân |
 |---|---|---|---|
 | Lý Hồng Phúc *(đại diện nộp)* | Annotator + QA + Diagnostician trên slice của mình — **hoàn thành P0–P6** | `B1-mid` | https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View |
-| Võ Lê Xuân Nhi | Annotator + QA + Diagnostician trên slice của mình — **mới xong P0, chưa khoá `r1_craft`** | `B3-center` | https://github.com/XuanNhi183/K4-L2-DAY11-VoLeXuanNhi-2A202602202-SVM360-Fisheye-Lab-Student |
-| Phạm Nguyễn Tuấn | Annotator + QA + Diagnostician trên slice của mình — **hoàn thành P0–P6** | `B4-dense` | https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab |
+| Võ Lê Xuân Nhi | Annotator + QA + Diagnostician trên slice của mình — **hoàn thành P0–P6** (cần re-commit `manifest.json` mới nhất) | `B3-center` | https://github.com/XuanNhi183/K4-L2-DAY11-VoLeXuanNhi-2A202602202-SVM360-Fisheye-Lab-Student |
+| Phạm Nguyễn Tuân | Annotator + QA + Diagnostician trên slice của mình — **hoàn thành P0–P6** | `B4-dense` | https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab |
 
 Mỗi người tự thực hiện đủ ba vai (Annotator → QA → Diagnostician) trên slice của chính mình qua P2–P4; vòng QA mù
 ở P3 đổi bài chéo theo `submission/00_setup/team.json` sinh ra từ lệnh `mode --members phuc,nhi,tuan`.
@@ -19,54 +19,53 @@ Mỗi người tự thực hiện đủ ba vai (Annotator → QA → Diagnostici
 
 | Người | `manifest.json` | Bản nhãn đã khoá | QA review | Rework/delta | Exit ticket | Commit chốt |
 |---|---|---|---|---|---|---|
-| Phúc | [manifest.json](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/manifest.json) | [r1_craft/annotations.xml](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r1_craft/annotations.xml) · [lock.txt](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r1_craft/lock.txt) | [qa_review.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r2_qa/qa_review.md) (QA bài Tuấn) | [rework/delta.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/rework/delta.md) | [50_exit_ticket.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/50_exit_ticket.md) | `67784af` |
-| Nhi | **chưa có** | **chưa khoá** — repo mới có file P0 | Đã QA bài Phúc qua chat (không phải file trong repo Nhi) | — | [Điền — kiểm xem Nhi đã viết chưa] | `b2cd962` *(chưa hoàn chỉnh)* |
-| Tuấn | [manifest.json](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/manifest.json) (`failed_gates: []`) | [r1_craft/annotations.xml](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r1_craft/annotations.xml) · [lock.txt](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r1_craft/lock.txt) | [qa_review.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r2_qa/qa_review.md) (QA bài Nhi) | [rework/delta.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/rework/delta.md) | [50_exit_ticket.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/50_exit_ticket.md) | `bbe1a8d` |
+| Phúc | [manifest.json](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/manifest.json) | [r1_craft/annotations.xml](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r1_craft/annotations.xml) · [lock.txt](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r1_craft/lock.txt) | [qa_review.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r2_qa/qa_review.md) (QA bài Tuân) | [rework/delta.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/rework/delta.md) | [50_exit_ticket.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/50_exit_ticket.md) | `8a9fadc` |
+| Nhi | [manifest.json](https://github.com/XuanNhi183/K4-L2-DAY11-VoLeXuanNhi-2A202602202-SVM360-Fisheye-Lab-Student/blob/main/submission/manifest.json) *(bản đã commit còn báo thiếu decision log — chạy `check` trực tiếp thì đạt, cần Nhi re-commit bản mới)* | [r1_craft/annotations.xml](https://github.com/XuanNhi183/K4-L2-DAY11-VoLeXuanNhi-2A202602202-SVM360-Fisheye-Lab-Student/blob/main/submission/r1_craft/annotations.xml) · [lock.txt](https://github.com/XuanNhi183/K4-L2-DAY11-VoLeXuanNhi-2A202602202-SVM360-Fisheye-Lab-Student/blob/main/submission/r1_craft/lock.txt) | [qa_review.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r2_qa/qa_review.md) (Tuân QA bài Nhi, trong repo Tuân) | [rework/delta.md](https://github.com/XuanNhi183/K4-L2-DAY11-VoLeXuanNhi-2A202602202-SVM360-Fisheye-Lab-Student/blob/main/submission/rework/delta.md) | [50_exit_ticket.md](https://github.com/XuanNhi183/K4-L2-DAY11-VoLeXuanNhi-2A202602202-SVM360-Fisheye-Lab-Student/blob/main/submission/50_exit_ticket.md) | `baeb8e2` |
+| Tuân | [manifest.json](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/manifest.json) (`failed_gates: []`) | [r1_craft/annotations.xml](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r1_craft/annotations.xml) · [lock.txt](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r1_craft/lock.txt) | [qa_review.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r2_qa/qa_review.md) (QA bài Nhi) | [rework/delta.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/rework/delta.md) | [50_exit_ticket.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/50_exit_ticket.md) | `bbe1a8d` |
 
-`check` gate: **Phúc và Tuấn** đạt `✓ Hồ sơ hình thức đầy đủ` (`failed_gates` rỗng trong `manifest.json`). **Nhi
-chưa chạy/chưa commit `check`** — repo của Nhi ở commit mới nhất mới có các file P0, chưa có `p1_calib/`,
-`r1_craft/`, `r2_qa/`, `r3_diag/`, `rework/`. Nhi cần hoàn thành phần fisheye, khoá `r1_craft`, chạy `check`, rồi
-commit/push và cập nhật lại bảng này — kết quả check của Phúc/Tuấn **không đại diện cho phần của Nhi**.
+`check` gate: **Phúc và Tuân** đạt `✓ Hồ sơ hình thức đầy đủ` với `manifest.json` đã commit đúng (`failed_gates`
+rỗng). **Nhi** đã hoàn thành đầy đủ nội dung (chạy `check` trực tiếp trên bản mới nhất cũng báo đạt), nhưng file
+`manifest.json` đang có trên GitHub là bản cũ tạo trước khi cô ấy hoàn thiện `40_decision_log.csv`, nên vẫn báo lỗi
+— Nhi cần chạy lại `python3 lab11.py check` và commit/push `manifest.json` mới trước khi nộp cuối cùng.
 
 ## Cách nhóm chia việc
 
 - Cả ba dùng chung danh sách tên `phuc,nhi,tuan` qua `mode --members ... --self <tên>` để công cụ tự chia slice
   (`B1-mid`, `B3-center`, `B4-dense`) và vòng QA.
-- P0–P2: mỗi người tự làm slice của mình (setup, calibration C0, gán nhãn, self-QC, khoá) trong repo riêng.
-  Phúc và Tuấn đã khoá xong; Nhi chưa khoá `r1_craft`.
-- P3: vòng QA khép kín theo `team.json` — Nhi QA bài `B1-mid` của Phúc; Phúc QA bài `B4-dense` của Tuấn; Tuấn QA
-  bài `B3-center` của Nhi. Cả ba chiều đều đã có bằng chứng (2 lưu trong repo, 1 gửi qua chat).
-- P4–P6: Phúc và Tuấn đã tự chẩn đoán, rework và hoàn thiện báo cáo trên slice của mình, `check` exit 0 cả hai.
-  Nhi chưa tới được các bước này vì chưa khoá bản đầu. Thảo luận chung (nếu có) về guideline patch và kế hoạch bốn
-  camera diễn ra qua kênh nội bộ, không gộp file `submission/` của các repo lại với nhau.
+- P0–P2: mỗi người tự làm slice của mình (setup, calibration C0, gán nhãn, self-QC, khoá) trong repo riêng. Cả ba
+  đã khoá `r1_craft` xong.
+- P3: vòng QA khép kín theo `team.json` — Nhi QA bài `B1-mid` của Phúc (qua chat); Phúc QA bài `B4-dense` của Tuân
+  (trong repo); Tuân QA bài `B3-center` của Nhi (trong repo). Cả ba chiều đều có bằng chứng.
+- P4–P6: cả ba đã tự chẩn đoán, rework và hoàn thiện báo cáo trên slice của mình. Thảo luận chung (nếu có) về
+  guideline patch và kế hoạch bốn camera diễn ra qua kênh nội bộ, không gộp file `submission/` của các repo lại
+  với nhau.
 
 ## Bất đồng đã xử lý và phần việc còn mở
 
 Chi tiết đầy đủ (frame/object_ref, ý kiến từng bên, bằng chứng, quyết định) xem mục 4 của
 [TEAMMATES.md](TEAMMATES.md#4-bất-đồng-và-phối-hợp). Tóm tắt:
 
-- **Đã xử lý:** một box `Car` lấn sang `ThreeWheeler` trong slice `B1-mid` (rework theo đề nghị QA của Nhi); một
-  nghi vấn trùng box `Bike` được giải quyết là "giữ nguyên" sau khi đối chiếu reference cho thấy QA (soát mù, chưa
-  có reference) nghi ngờ nhầm.
-- **Còn mở (1):** mẫu lỗi hệ thống `ThreeWheeler` bị gán nhầm thành `Car` (5 lần trong slice `B4-dense` của Tuấn) đã
-  được escalate đề xuất patch guideline R04, nhưng **chưa có patch chính thức được duyệt** và Tuấn chưa xác nhận
+- **Đã xử lý (1):** một box `Car` lấn sang `ThreeWheeler` trong slice `B1-mid` (rework theo đề nghị QA của Nhi);
+  một nghi vấn trùng box `Bike` được giải quyết là "giữ nguyên" sau khi đối chiếu reference cho thấy QA (soát mù,
+  chưa có reference) nghi ngờ nhầm.
+- **Đã xử lý (2):** Tuân QA bài `B3-center` của Nhi, phát hiện Nhi dùng **polygon thay vì bounding box** để gán
+  nhãn phương tiện, cộng thêm nghi class `Car`/`Bus` và một ca người dắt xe chưa tách. Nhi đã rework: đổi
+  `Car`→`Bus` ở frame `212280`, tách `Pedestrian`+`Bike` ở frame `167700`.
+- **Còn mở:** mẫu lỗi hệ thống `ThreeWheeler` bị gán nhầm thành `Car` (5 lần trong slice `B4-dense` của Tuân) đã
+  được escalate đề xuất patch guideline R04, nhưng **chưa có patch chính thức được duyệt** và Tuân chưa xác nhận
   đã tự soát lại phần còn lại của slice mình.
-- **Còn mở (2):** Tuấn QA bài `B3-center` của Nhi và phát hiện Nhi **dùng polygon để gán nhãn phương tiện thay vì
-  bounding box** — sai quy trình, ảnh hưởng tới việc đo tự động. Nhi chưa phản hồi hay sửa; repo Nhi hiện chưa có
-  bản `r1_craft` đã khoá.
-- **Còn thiếu để hoàn thiện repo nhóm:** kênh liên lạc nội bộ (điền vào `TEAMMATES.md`), Nhi hoàn thành P1–P6 +
-  `check` exit 0 + commit chốt trong repo của Nhi, xác nhận repo nhóm đã bật Public.
+- **Ca ngoài nhóm:** Nhi escalate riêng một nghi vấn về chính **teaching reference** (vị trí `ego_body` ở frame
+  `167700` có thể sai) — chuyển Lab Coach xử lý, không phải bất đồng giữa các thành viên.
+- **Còn thiếu để hoàn thiện repo nhóm:** Nhi re-commit `manifest.json` mới (nội dung đã đạt, chỉ file trên GitHub
+  đang cũ), xác nhận repo nhóm đã bật Public trước khi gửi link.
 
 ## Trước khi nộp
 
-1. **Nhi hoàn thành phần fisheye còn lại** (P1–P6: khoá `r1_craft`, self-QC, mở reference, chẩn đoán, rework, báo
-   cáo P6) trong repo cá nhân, đọc và phản hồi nhận xét QA của Tuấn (đặc biệt lỗi dùng polygon thay box), rồi chạy
-   `python3 lab11.py check` tới khi đạt, commit và push.
+1. **Nhi chạy lại `python3 lab11.py check`** trong repo của mình rồi commit/push `manifest.json` mới — nội dung
+   các bước đã xong, chỉ cần cập nhật file này để phản ánh đúng trạng thái đạt.
 2. Đại diện (Phúc) mở lại từng link trong bảng trên, đối chiếu slice/vòng QA/mã khoá/bằng chứng, xác nhận cả ba
    repo cá nhân và repo nhóm này đều **Public**.
-3. Cập nhật `TEAMMATES.md` và bảng "Bằng chứng theo từng người" ở trên với commit chốt thật của Nhi sau khi xong
-   bước 1.
-4. Commit và push hai file này (`README.md`, `TEAMMATES.md`) — **không** chạy `lab11.py check` trong repo nhóm vì
+3. Commit và push hai file này (`README.md`, `TEAMMATES.md`) — **không** chạy `lab11.py check` trong repo nhóm vì
    repo này không có `lab11.py`/`submission/` đầy đủ, công cụ đó chỉ chạy trong repo thực hành.
-5. Gửi link repo nhóm (`https://github.com/phuclhAi/K4-DAY11-Ranadal`) qua kênh lớp công bố — không cần từng thành
+4. Gửi link repo nhóm (`https://github.com/phuclhAi/K4-DAY11-Ranadal`) qua kênh lớp công bố — không cần từng thành
    viên nộp thêm lượt cá nhân cho cùng bài nhóm, trừ khi giảng viên yêu cầu khác.
