@@ -1,6 +1,0 @@
-data/
-exports/
-build/
-.[e]nv
-__pycache__/
-*.pyc
