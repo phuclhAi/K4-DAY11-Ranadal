@@ -8,7 +8,7 @@ tổng hợp và trỏ tới bằng chứng. Chi tiết phân vai, bàn giao t�
 
 | Họ và tên | Vai trò trong bài | Slice | Repo cá nhân |
 |---|---|---|---|
-| Lý Hồng Phúc *(đại diện nộp)* | Annotator + QA + Diagnostician trên slice của mình — **hoàn thành P0–P6** | `B1-mid` | https://github.com/phuclhAi/K4-DAY11-LyHongPhuc-2A202602221 |
+| Lý Hồng Phúc *(đại diện nộp)* | Annotator + QA + Diagnostician trên slice của mình — **hoàn thành P0–P6** | `B1-mid` | https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View |
 | Võ Lê Xuân Nhi | Annotator + QA + Diagnostician trên slice của mình — **mới xong P0, chưa khoá `r1_craft`** | `B3-center` | https://github.com/XuanNhi183/K4-L2-DAY11-VoLeXuanNhi-2A202602202-SVM360-Fisheye-Lab-Student |
 | Phạm Nguyễn Tuấn | Annotator + QA + Diagnostician trên slice của mình — **hoàn thành P0–P6** | `B4-dense` | https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab |
 
@@ -19,7 +19,7 @@ Mỗi người tự thực hiện đủ ba vai (Annotator → QA → Diagnostici
 
 | Người | `manifest.json` | Bản nhãn đã khoá | QA review | Rework/delta | Exit ticket | Commit chốt |
 |---|---|---|---|---|---|---|
-| Phúc | [manifest.json](https://github.com/phuclhAi/K4-DAY11-LyHongPhuc-2A202602221/blob/main/submission/manifest.json) | [r1_craft/annotations.xml](https://github.com/phuclhAi/K4-DAY11-LyHongPhuc-2A202602221/blob/main/submission/r1_craft/annotations.xml) · [lock.txt](https://github.com/phuclhAi/K4-DAY11-LyHongPhuc-2A202602221/blob/main/submission/r1_craft/lock.txt) | [qa_review.md](https://github.com/phuclhAi/K4-DAY11-LyHongPhuc-2A202602221/blob/main/submission/r2_qa/qa_review.md) (QA bài Tuấn) | [rework/delta.md](https://github.com/phuclhAi/K4-DAY11-LyHongPhuc-2A202602221/blob/main/submission/rework/delta.md) | [50_exit_ticket.md](https://github.com/phuclhAi/K4-DAY11-LyHongPhuc-2A202602221/blob/main/submission/50_exit_ticket.md) | `67784af` |
+| Phúc | [manifest.json](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/manifest.json) | [r1_craft/annotations.xml](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r1_craft/annotations.xml) · [lock.txt](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r1_craft/lock.txt) | [qa_review.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/r2_qa/qa_review.md) (QA bài Tuấn) | [rework/delta.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/rework/delta.md) | [50_exit_ticket.md](https://github.com/phuclhAi/K4-L2-DAY11-LyHongPhuc-2A202602221-SVM-360-View/blob/main/submission/50_exit_ticket.md) | `67784af` |
 | Nhi | **chưa có** | **chưa khoá** — repo mới có file P0 | Đã QA bài Phúc qua chat (không phải file trong repo Nhi) | — | [Điền — kiểm xem Nhi đã viết chưa] | `b2cd962` *(chưa hoàn chỉnh)* |
 | Tuấn | [manifest.json](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/manifest.json) (`failed_gates: []`) | [r1_craft/annotations.xml](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r1_craft/annotations.xml) · [lock.txt](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r1_craft/lock.txt) | [qa_review.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/r2_qa/qa_review.md) (QA bài Nhi) | [rework/delta.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/rework/delta.md) | [50_exit_ticket.md](https://github.com/phamnguyentuan0311/K4-L2-DAY11-PhamNguyenTuan-2A202602091-SVM360-Fisheye-Lab/blob/main/submission/50_exit_ticket.md) | `bbe1a8d` |
 
@@ -54,8 +54,8 @@ Chi tiết đầy đủ (frame/object_ref, ý kiến từng bên, bằng chứng
 - **Còn mở (2):** Tuấn QA bài `B3-center` của Nhi và phát hiện Nhi **dùng polygon để gán nhãn phương tiện thay vì
   bounding box** — sai quy trình, ảnh hưởng tới việc đo tự động. Nhi chưa phản hồi hay sửa; repo Nhi hiện chưa có
   bản `r1_craft` đã khoá.
-- **Còn thiếu để hoàn thiện repo nhóm:** MSSV chính xác của Phúc (đang suy từ tên repo), kênh liên lạc nội bộ,
-  Nhi hoàn thành P1–P6 + `check` exit 0 + commit chốt trong repo của Nhi, xác nhận repo nhóm đã bật Public.
+- **Còn thiếu để hoàn thiện repo nhóm:** kênh liên lạc nội bộ (điền vào `TEAMMATES.md`), Nhi hoàn thành P1–P6 +
+  `check` exit 0 + commit chốt trong repo của Nhi, xác nhận repo nhóm đã bật Public.
 
 ## Trước khi nộp
 
@@ -65,7 +65,7 @@ Chi tiết đầy đủ (frame/object_ref, ý kiến từng bên, bằng chứng
 2. Đại diện (Phúc) mở lại từng link trong bảng trên, đối chiếu slice/vòng QA/mã khoá/bằng chứng, xác nhận cả ba
    repo cá nhân và repo nhóm này đều **Public**.
 3. Cập nhật `TEAMMATES.md` và bảng "Bằng chứng theo từng người" ở trên với commit chốt thật của Nhi sau khi xong
-   bước 1; xác nhận lại MSSV của Phúc.
+   bước 1.
 4. Commit và push hai file này (`README.md`, `TEAMMATES.md`) — **không** chạy `lab11.py check` trong repo nhóm vì
    repo này không có `lab11.py`/`submission/` đầy đủ, công cụ đó chỉ chạy trong repo thực hành.
 5. Gửi link repo nhóm (`https://github.com/phuclhAi/K4-DAY11-Ranadal`) qua kênh lớp công bố — không cần từng thành
